@@ -5,7 +5,7 @@ body{
     margin: 0;
 }
 .content{
-    box-shadow: 0px 0px 8px 2px #1f1f1f;
+    box-shadow: 0px 0px 12px 2px #1f1f1f;
 }
 .main{
     display: flex;
@@ -16,10 +16,15 @@ body{
 }
 
 .header {
-    background-color:white;
-    text-align: center;
+    background-color:rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    text-align: left;
     margin-top: 0;
     padding: 10px;
+}
+.h1-title-box{
+    width: 450px;
 }
 .header h1{
     margin: 0;
